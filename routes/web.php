@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\AboutComponent;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,4 +14,5 @@ use App\Http\Livewire\HomeComponent;
 |
 */
 
-Route::get('/',HomeComponent::class);
+Route::get('/',HomeComponent::class)->name('home');
+Route::get('/about',AboutComponent::class)->name('about');

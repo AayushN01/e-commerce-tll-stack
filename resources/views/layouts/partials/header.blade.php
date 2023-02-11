@@ -46,7 +46,7 @@
                 <div class="mid-section main-info-area">
 
                     <div class="wrap-logo-top left-section">
-                        <a href="index.html" class="link-to-home"><img src="{{asset('assets/images/logo-top-1.png')}}" alt="mercado"></a>
+                        <a href="{{route('home')}}" class="link-to-home"><img src="{{asset('assets/images/logo-top-1.png')}}" alt="mercado"></a>
                     </div>
 
                     <div class="wrap-search center-section">
@@ -132,7 +132,7 @@
                                 <a href="index.html" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
                             </li>
                             <li class="menu-item">
-                                <a href="about-us.html" class="link-term mercado-item-title">About Us</a>
+                                <a href="{{route('about')}}" class="link-term mercado-item-title">About Us</a>
                             </li>
                             <li class="menu-item">
                                 <a href="shop.html" class="link-term mercado-item-title">Shop</a>

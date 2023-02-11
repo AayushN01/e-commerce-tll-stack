@@ -1,4 +1,4 @@
-<div>
+<main id="main">
     <div class="container">
 
         <!--MAIN SLIDE-->
@@ -1276,4 +1276,5 @@
         </div>
 
     </div>
-</div>
+
+</main>

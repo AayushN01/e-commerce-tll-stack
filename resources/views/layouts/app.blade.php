@@ -30,11 +30,7 @@
 	<!--header-->
     @include('layouts.partials.header')
 
-	<main id="main">
-
-        @livewire('home-component');
-
-	</main>
+    {{$slot}}
 
     @include('layouts.partials.footer')
 	
