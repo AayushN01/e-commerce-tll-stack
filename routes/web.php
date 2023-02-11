@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\AboutComponent;
+use App\Http\Livewire\ShopComponent;
+use App\Http\Livewire\CartComponent;
+use App\Http\Livewire\CheckoutComponent;
+use App\Http\Livewire\ContactComponent;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +20,7 @@ use App\Http\Livewire\AboutComponent;
 
 Route::get('/',HomeComponent::class)->name('home');
 Route::get('/about',AboutComponent::class)->name('about');
+Route::get('/shop',ShopComponent::class)->name('shop');
+Route::get('/cart',CartComponent::class)->name('cart');
+Route::get('/checkout',CheckoutComponent::class)->name('checkout');
+Route::get('/contact',ContactComponent::class)->name('contact');
