@@ -2,8 +2,8 @@
 
     <div class="wrap-breadcrumb">
         <ul>
-            <li class="item-link"><a href="#" class="link">home</a></li>
-            <li class="item-link"><span>Digital & Electronics</span></li>
+            <li class="item-link"><a href="{{route('home')}}" class="link">home</a></li>
+            <li class="item-link"><span>Shop</span></li>
         </ul>
     </div>
     <div class="row">
@@ -12,7 +12,7 @@
 
             <div class="banner-shop">
                 <a href="#" class="banner-link">
-                    <figure><img src="assets/images/shop-banner.jpg" alt=""></figure>
+                    <figure><img src="{{asset('assets/images/shop-banner.jpg')}}" alt=""></figure>
                 </a>
             </div>
 
@@ -66,9 +66,9 @@
                                 </a>
                             </div>
                             <div class="product-info">
-                                <a href="{{route('product.detail',$product->slug)}}" class="product-name"><span>{{$product->name}}</span></a>
+                                <a href="{{route('product.detail',$product->slug)}}" class="product-name text-capitalize"><span>{{$product->name}}</span></a>
                                 <div class="wrap-price"><span class="product-price">${{$product->regular_price}}</span></div>
-                                <a href="#" class="btn add-to-cart">Add To Cart</a>
+                                <a href="#" class="btn add-to-cart" wire:click.prevent="store({{$product->id}}, '{{$product->name}}',{{$product->regular_price}})">Add To Cart</a>
                             </div>
                         </div>
                     </li>

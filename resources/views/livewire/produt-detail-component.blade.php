@@ -31,7 +31,7 @@
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <a href="#" class="count-review">(05 review)</a>
                     </div>
-                    <h2 class="product-name">{{$product->name}}</h2>
+                    <h2 class="product-name text-capitalize">{{$product->name}}</h2>
                     <div class="short-desc">
                         {{$product->short_description}}
                     </div>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="wrap-butons">
-                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                        <a href="#" class="btn add-to-cart" wire:click.prevent="store({{$product->id}}, '{{$product->name}}',{{$product->regular_price}})">Add To Cart</a>
                         <div class="wrap-btn">
                             <a href="#" class="btn btn-compare">Add Compare</a>
                             <a href="#" class="btn btn-wishlist">Add Wishlist</a>
