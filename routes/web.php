@@ -8,6 +8,7 @@ use App\Http\Livewire\ShopComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\ContactComponent;
+use App\Http\Livewire\ProdutDetailComponent;
 use App\Http\Livewire\User\UserDashboardComponent;
 
 /*
@@ -27,7 +28,7 @@ Route::get('/shop',ShopComponent::class)->name('shop');
 Route::get('/cart',CartComponent::class)->name('cart');
 Route::get('/checkout',CheckoutComponent::class)->name('checkout');
 Route::get('/contact',ContactComponent::class)->name('contact');
-
+Route::get('/product/{slug}',ProdutDetailComponent::class)->name('product.detail');
 
 // For User
 Route::middleware(['auth:sanctum','verified'])->group(function(){
