@@ -3,7 +3,8 @@
     <div class="wrap-breadcrumb">
         <ul>
             <li class="item-link"><a href="{{route('home')}}" class="link">home</a></li>
-            <li class="item-link"><span>Shop</span></li>
+            <li class="item-link"><span>Product Categories</span></li>
+            <li class="item-link"><span>{{$category->name}}</span></li>
         </ul>
     </div>
     <div class="row">
@@ -18,7 +19,7 @@
 
             <div class="wrap-shop-control">
 
-                <h1 class="shop-title">Digital & Electronics</h1>
+                <h1 class="shop-title text-capitalize">{{$category->name}}</h1>
 
                 <div class="wrap-right">
 
