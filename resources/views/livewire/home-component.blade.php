@@ -40,13 +40,13 @@
         <div class="wrap-banner style-twin-default">
             <div class="banner-item">
                 <a href="#" class="link-banner banner-effect-1">
-                    <figure><img src="assets/images/home-1-banner-1.jpg" alt="" width="580" height="190">
+                    <figure><img src="{{asset('assets/images/home-1-banner-1.jpg')}}" alt="" width="580" height="190">
                     </figure>
                 </a>
             </div>
             <div class="banner-item">
                 <a href="#" class="link-banner banner-effect-1">
-                    <figure><img src="assets/images/home-1-banner-2.jpg" alt="" width="580" height="190">
+                    <figure><img src="{{asset('assets/images/home-1-banner-2.jpg')}}" alt="" width="580" height="190">
                     </figure>
                 </a>
             </div>
@@ -63,7 +63,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/tools_equipment_7.jpg" width="800"
+                            <figure><img src="{{asset('assets/images/products/tools_equipment_7.jpg')}}" width="800"
                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                         </a>
                         <div class="group-flash">
@@ -83,7 +83,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/digital_18.jpg" width="800" height="800"
+                            <figure><img src="{{asset('assets/images/products/digital_18.jpg')}}" width="800" height="800"
                                     alt=""></figure>
                         </a>
                         <div class="group-flash">
@@ -107,7 +107,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/fashion_08.jpg" width="800" height="800"
+                            <figure><img src="{{asset('assets/images/products/fashion_08.jpg')}}" width="800" height="800"
                                     alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                         </a>
                         <div class="group-flash">
@@ -127,7 +127,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/digital_17.jpg" width="800" height="800"
+                            <figure><img src="{{asset('assets/images/products/digital_17.jpg')}}" width="800" height="800"
                                     alt=""></figure>
                         </a>
                         <div class="group-flash">
@@ -151,7 +151,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/tools_equipment_3.jpg" width="800"
+                            <figure><img src="{{asset('assets/images/products/tools_equipment_3.jpg')}}" width="800"
                                     height="800" alt=""></figure>
                         </a>
                         <div class="group-flash">
@@ -171,7 +171,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/fashion_05.jpg" width="800" height="800"
+                            <figure><img src="{{asset('assets/images/products/fashion_05.jpg')}}" width="800" height="800"
                                     alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                         </a>
                         <div class="group-flash">
@@ -195,7 +195,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/digital_04.jpg" width="800" height="800"
+                            <figure><img src="{{asset('assets/images/products/digital_4.jpg')}}" width="800" height="800"
                                     alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                         </a>
                         <div class="group-flash">
@@ -215,7 +215,7 @@
                 <div class="product product-style-2 equal-elem ">
                     <div class="product-thumnail">
                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                            <figure><img src="assets/images/products/kidtoy_05.jpg" width="800" height="800"
+                            <figure><img src="{{asset('assets/images/products/kidtoy_05.jpg')}}" width="800" height="800"
                                     alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                         </a>
                         <div class="group-flash">
@@ -244,7 +244,7 @@
             <h3 class="title-box">Latest Products</h3>
             <div class="wrap-top-banner">
                 <a href="#" class="link-banner banner-effect-2">
-                    <figure><img src="assets/images/digital-electronic-banner.jpg" width="1170" height="240"
+                    <figure><img src="{{asset('assets/images/digital-electronic-banner.jpg')}}" width="1170" height="240"
                             alt=""></figure>
                 </a>
             </div>
@@ -259,7 +259,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_04.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_4.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -280,7 +280,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_17.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_17.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -305,7 +305,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_15.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_15.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -331,7 +331,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_01.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_1.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -352,7 +352,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_21.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_21.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -370,7 +370,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_03.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_3.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -395,7 +395,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_04.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_4.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -416,7 +416,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/digital_05.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/digital_5.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -446,7 +446,7 @@
             <h3 class="title-box">Product Categories</h3>
             <div class="wrap-top-banner">
                 <a href="#" class="link-banner banner-effect-2">
-                    <figure><img src="assets/images/fashion-accesories-banner.jpg" width="1170" height="240"
+                    <figure><img src="{{asset('assets/images/fashion-accesories-banner.jpg')}}" width="1170" height="240"
                             alt=""></figure>
                 </a>
             </div>
@@ -468,7 +468,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_01.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_01.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -489,7 +489,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_02.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_02.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -514,7 +514,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_09.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_09.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -532,7 +532,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_03.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_03.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -558,7 +558,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_07.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_07.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -579,7 +579,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_08.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_08.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -604,7 +604,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_06.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_06.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -625,7 +625,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_05.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_05.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -654,7 +654,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_03.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_03.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -675,7 +675,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_07.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_07.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -700,7 +700,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_08.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_08.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -721,7 +721,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_09.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_09.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -746,7 +746,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_02.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_02.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -767,7 +767,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_05.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_05.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -792,7 +792,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_08.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_08.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -813,7 +813,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_04.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_04.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
@@ -846,7 +846,7 @@
                                 <div class="product product-style-2 equal-elem ">
                                     <div class="product-thumnail">
                                         <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                            <figure><img src="assets/images/products/fashion_02.jpg" width="800"
+                                            <figure><img src="{{asset('assets/images/products/fashion_02.jpg')}}" width="800"
                                                     height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                             </figure>
                                         </a>
