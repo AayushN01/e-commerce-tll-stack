@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\AboutComponent;
+use App\Http\Livewire\Admin\AdminAddCategoryComponent;
 use App\Http\Livewire\Admin\AdminCategoryComponent;
 use App\Http\Livewire\Admin\AdminDashboardComponent;
 use App\Http\Livewire\ShopComponent;
@@ -43,4 +44,5 @@ Route::middleware(['auth:sanctum','verified'])->group(function(){
 Route::middleware(['auth:sanctum','verified','authadmin'])->group(function(){
     Route::get('/admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
     Route::get('/admin/category',AdminCategoryComponent::class)->name('admin.category');
+    Route::get('/admin/add-category',AdminAddCategoryComponent::class)->name('admin.add_category');
 });
