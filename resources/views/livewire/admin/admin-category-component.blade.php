@@ -38,7 +38,7 @@
                                 <td>{{++$key}}</td>
                                 <td>{{$category->name}}</td>
                                 <td>{{$category->slug}}</td>
-                                <td></td>
+                                <td><a href="{{route('admin.edit_category',$category->slug)}}" class="btn btn-warning">Edit</a></td>
                             </tr>
                             @endforeach
                         </tbody>
