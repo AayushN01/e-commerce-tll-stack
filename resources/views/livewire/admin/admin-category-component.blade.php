@@ -23,6 +23,9 @@
                     </div>
                 </div>
                 <div class="panel-body table-responsive">
+                    @if(Session::has('success_msg'))
+                        <div class="alert alert-success">{{Session::get('success_msg')}}</div>
+                    @endif
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>
@@ -38,7 +41,9 @@
                                 <td>{{++$key}}</td>
                                 <td>{{$category->name}}</td>
                                 <td>{{$category->slug}}</td>
-                                <td><a href="{{route('admin.edit_category',$category->slug)}}" class="btn btn-warning">Edit</a></td>
+                                <td><a href="{{route('admin.edit_category',$category->slug)}}" class="btn btn-warning">Edit</a>
+                                    <a href="#" class="btn btn-danger" wire:click.prevent="deleteCategory({{$category->id}});">Delete</a>
+                                </td>
                             </tr>
                             @endforeach
                         </tbody>
