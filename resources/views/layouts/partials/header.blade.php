@@ -45,6 +45,9 @@
                                             <li class="menu-item" >
                                                 <a title="Dashboard" href="{{route('admin.dashboard')}}">Dashboard</a>
                                             </li>
+                                            <li class="menu-item" >
+                                                <a title="Dashboard" href="{{route('admin.category')}}">Categories</a>
+                                            </li>
                                             <li class="menu-item">
                                                 <a title="Logout" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
                                             </li>
@@ -88,7 +91,7 @@
                     </div>
 
                     @livewire('search-component')
-                    
+
                     <div class="wrap-icon right-section">
                         <div class="wrap-icon-section wishlist">
                             <a href="#" class="link-direction">
