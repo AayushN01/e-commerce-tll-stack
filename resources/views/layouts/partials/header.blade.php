@@ -54,6 +54,9 @@
                                             <li class="menu-item" >
                                                 <a title="Slider" href="{{route('admin.sliders')}}">Sliders</a>
                                             </li>
+                                            <li class="menu-item" >
+                                                <a title="Home Category" href="{{route('admin.home_category')}}">Home Category</a>
+                                            </li>
                                             <li class="menu-item">
                                                 <a title="Logout" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
                                             </li>
