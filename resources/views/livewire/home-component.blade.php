@@ -2,19 +2,22 @@
     <div class="container">
 
         <!--MAIN SLIDE-->
+        @if($sliders->isNotEmpty())
         <div class="wrap-main-slide">
             <div class="slide-carousel owl-carousel style-nav-1" data-items="1" data-loop="1" data-nav="true"
                 data-dots="false">
+                @foreach($sliders as $key => $slider)
                 <div class="item-slide">
-                    <img src="assets/images/main-slider-1-1.jpg" alt="" class="img-slide">
+                    <img src="{{asset('assets/images/sliders')}}/{{$slider->image}}" alt="{{$slider->title}}" class="img" width="100%" style="height:80vh;">
                     <div class="slide-info slide-1">
-                        <h2 class="f-title">Kid Smart <b>Watches</b></h2>
-                        <span class="subtitle">Compra todos tus productos Smart por internet.</span>
-                        <p class="sale-info">Only price: <span class="price">$59.99</span></p>
-                        <a href="#" class="btn-link">Shop Now</a>
+                        <h2 class="f-title">{{$slider->title}}</h2>
+                        <span class="subtitle">{{$slider->caption}}</span>
+                        @if($slider->price)<p class="sale-info">Only price: <span class="price">${{$slider->price}}</span></p>@endif
+                        @if($slider->link)<a href="{{$slider->link}}" class="btn-link" target="_blank">Shop Now</a>@endif
                     </div>
                 </div>
-                <div class="item-slide">
+                @endforeach
+                {{-- <div class="item-slide">
                     <img src="assets/images/main-slider-1-2.jpg" alt="" class="img-slide">
                     <div class="slide-info slide-2">
                         <h2 class="f-title">Extra 25% Off</h2>
@@ -32,9 +35,10 @@
                         <p class="sale-info">Stating at: <b class="price">$225.00</b></p>
                         <a href="#" class="btn-link">Shop Now</a>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
+        @endif
 
         <!--BANNER-->
         <div class="wrap-banner style-twin-default">
@@ -1275,5 +1279,4 @@
             </div>
         </div>
 
-    </div>
 
