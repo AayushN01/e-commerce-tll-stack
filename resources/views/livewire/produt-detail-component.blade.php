@@ -38,7 +38,7 @@
                     <div class="wrap-social">
                         <a class="link-social" href="#"><img src="{{asset('assets/images/social-list.png')}}" alt=""></a>
                     </div>
-                    @if($product->sale_price != null)
+                    @if($product->sale_price != null && $sale->status == 1 && $sale->sale_date > Carbon\Carbon::now())
                     <div class="wrap-price"><span class="product-price" style="text-decoration: line-through">${{$product->regular_price}}</span> <span class="product-price" style="color:red;padding-left:5px;">${{$product->sale_price}}</span></div>
                     @else
                     <div class="wrap-price"><span class="product-price">${{$product->regular_price}}</span></div>
@@ -56,7 +56,11 @@
                         </div>
                     </div>
                     <div class="wrap-butons">
+                        @if($product->sale_price != null && $sale->status == 1 && $sale->sale_date > Carbon\Carbon::now())
+                        <a href="#" class="btn add-to-cart" wire:click.prevent="store({{$product->id}}, '{{$product->name}}',{{$product->sale_price}})">Add To Cart</a>
+                        @else
                         <a href="#" class="btn add-to-cart" wire:click.prevent="store({{$product->id}}, '{{$product->name}}',{{$product->regular_price}})">Add To Cart</a>
+                        @endif
                         <div class="wrap-btn">
                             <a href="#" class="btn btn-compare">Add Compare</a>
                             <a href="#" class="btn btn-wishlist">Add Wishlist</a>
