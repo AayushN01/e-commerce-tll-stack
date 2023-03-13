@@ -36,7 +36,7 @@
                         {{$product->short_description}}
                     </div>
                     <div class="wrap-social">
-                        <a class="link-socail" href="#"><img src="{{asset('assets/images/social-list.png')}}" alt=""></a>
+                        <a class="link-social" href="#"><img src="{{asset('assets/images/social-list.png')}}" alt=""></a>
                     </div>
                     @if($product->sale_price != null)
                     <div class="wrap-price"><span class="product-price" style="text-decoration: line-through">${{$product->regular_price}}</span> <span class="product-price" style="color:red;padding-left:5px;">${{$product->sale_price}}</span></div>
