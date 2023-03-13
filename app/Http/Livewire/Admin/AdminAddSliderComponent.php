@@ -23,8 +23,19 @@ class AdminAddSliderComponent extends Component
         $this->status = 0;
     }
 
+    public function updated($fields){
+        $this->validateOnly($fields,[
+            'name' => 'required',
+            'caption' => 'required',
+        ]);
+    }
+
     public function storeSlider()
     {
+        $this->validate([
+            'name' => 'required',
+            'caption' => 'required',
+        ]);
         $slider = new HomeSlider();
         $slider->title = $this->name;
         $slider->caption = $this->caption;

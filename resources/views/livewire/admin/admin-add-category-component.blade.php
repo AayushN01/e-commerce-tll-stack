@@ -26,13 +26,16 @@
                         <div class="form-group">
                             <label for="name" class="col-md-4 control-label">Category Name <span class="text text-danger">*</span></label>
                             <div class="col-md-4">
-                                <input type="text" class="form-control input-md" name="name" placeholder="Category Name" required wire:model="name" wire:input="generateSlug();">
+                                <input type="text" class="form-control input-md" name="name" placeholder="Category Name"  wire:model="name" wire:input="generateSlug();">
+                                @error('name') <p class="text text-danger">{{$message}}*</p> @enderror
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="name" class="col-md-4 control-label">Category Slug</label>
                             <div class="col-md-4">
                                 <input type="text" class="form-control input-md" name="slug" wire:model="slug">
+                                @error('slug') <p class="text text-danger">{{$message}}*</p> @enderror
+
                             </div>
                         </div>
                         <div class="form-group">

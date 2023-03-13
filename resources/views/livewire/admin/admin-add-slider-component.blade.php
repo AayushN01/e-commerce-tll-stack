@@ -26,19 +26,25 @@
                         <div class="form-group">
                             <label for="name" class="col-md-4 control-label">Name <span class="text text-danger">*</span></label>
                             <div class="col-md-4">
-                                <input type="text" class="form-control input-md" name="name" placeholder="Name" required wire:model.lazy="name">
+                                <input type="text" class="form-control input-md" name="name" placeholder="Name" wire:model.lazy="name">
+                                @error('name')
+                                    <p class="text text-danger">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="short_description" class="col-md-4 control-label">Caption</label>
                             <div class="col-md-4">
                                 <textarea name="caption" id="caption" class="form-control input-md" wire:model.lazy="caption"></textarea>
+                                @error('caption')
+                                <p class="text text-danger">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="price" class="col-md-4 control-label">Price</label>
                             <div class="col-md-4">
-                                <input type="number" class="form-control input-md" name="price" required wire:model.lazy="price">
+                                <input type="number" class="form-control input-md" name="price" wire:model.lazy="price">
                             </div>
                         </div>
                         <div class="form-group">

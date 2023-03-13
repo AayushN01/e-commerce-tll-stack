@@ -26,24 +26,33 @@
                         <div class="form-group">
                             <label for="name" class="col-md-4 control-label">Product Name <span class="text text-danger">*</span></label>
                             <div class="col-md-4">
-                                <input type="text" class="form-control input-md" name="name" placeholder="Category Name" required wire:model="name" wire:input="generateSlug();">
+                                <input type="text" class="form-control input-md" name="name" placeholder="Category Name" wire:model="name" wire:input="generateSlug();">
+                                @error('name')
+                                    <p class="text text-danger">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="name" class="col-md-4 control-label">Product Slug</label>
                             <div class="col-md-4">
                                 <input type="text" class="form-control input-md" name="slug" wire:model="slug">
+                                @error('slug')
+                                <p class="text text-danger">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="category" class="col-md-4 control-label">Category <span class="text text-danger">*</span></label>
                             <div class="col-md-4">
-                                <select name="category_id" id="category_id" class="form-control input-md" required wire:model="category_id">
+                                <select name="category_id" id="category_id" class="form-control input-md" wire:model="category_id">
                                     <option selected>Select Category</option>
                                     @foreach ($categories as $category)
                                         <option value="{{$category->id}}">{{$category->name}}</option>
                                     @endforeach
                                 </select>
+                                @error('category_id')
+                                <p class="text text-danger">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-group">
@@ -67,7 +76,10 @@
                         <div class="form-group">
                             <label for="regular_price" class="col-md-4 control-label">Regular Price <span class="text text-danger">*</span></label>
                             <div class="col-md-4">
-                                <input type="number" class="form-control input-md" name="regular_price" required wire:model="regular_price">
+                                <input type="number" class="form-control input-md" name="regular_price" wire:model="regular_price">
+                                @error('regular_price')
+                                <p class="text text-danger">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-group">
@@ -80,6 +92,9 @@
                             <label for="quantity" class="col-md-4 control-label">Quantity</label>
                             <div class="col-md-4">
                                 <input type="number" class="form-control input-md" name="quantity" wire:model="quantity">
+                                @error('quantity')
+                                <p class="text text-danger">{{$message}}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-group">
